@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    background-color: rgb(14, 7, 85) ;
+    nav{
+        width: 80%;
+        margin: auto;
+        div.navbar{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            a{
+                color: white;
+                height: 100%;
+                font-style: normal;
+                padding: 10px;
+            }
+            
+        }
+
+    }
+}
+.navigation {
+    text-align: center;
+    a{  
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+        font-size:15px;
+    }
+    a:hover{
+        color: rgb(223, 86, 93);
+    }
+    
+}
+.image{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 25%;
+
+}
+.content{
+    text-align: center;
+    padding: 10px;
+    margin-left: auto;
+    h2 span{
+            color: rgb(17, 5, 59);
+        }
+        h4{
+            font-size: 20px;
+            
+        }
+        p{
+            text-align: justify;
+            padding: 10px 30px 10px 30px;
+        }
+        
+    }
+.btn-group a {
+        color: antiquewhite;
+        padding: 10px; 
+        background-color: rgb(9, 9, 71);
+        border-radius: 10px;
+        border: 2px solid rgb(9, 9, 71);
+}
+.btn-group a:hover{
+    color: rgb(9, 9, 71);
+    background: transparent;
+}
+.btn-group{
+    padding: 30px;
+}
+footer{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(17, 5, 59);
+    text-align: center;
+    height: 30px;
+}
+@media only screen and (max-width: 600px) {
+    header{
+        width: 100%;
+        display: flex;
+        height: 50px;
+        position: fixed;
+        top: 0;
+        background-color: rgb(14, 7, 85) ;
+        nav{
+            width: 80%;
+            margin: auto;
+            div.navbar{
+                display: flex;
+                justify-content: space-evenly;
+                
+                a{
+                    color: white;
+                    height: 100%;
+                    font-style: normal;
+                    padding: 10px;
+                }
+                
+            }
+    
+        }
+    }
+}
+.navigation {
+    text-align: center;
+    a{  
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+        font-size:20px;
+    }
+    a:hover{
+        color: rgb(223, 86, 93);
+    }
+    
+}
+
+
